@@ -1,0 +1,9 @@
+{
+  "component": "mod_practicalassessment",
+  "version": "3.2.16",
+  "numeric_version": "2026041000316",
+  "build_id": "practicalassessment-v316-fix13digit",
+  "build_timestamp": "2026-04-10T00:00:00.000Z",
+  "folder": "mod_practicalassessment",
+  "verification": "version-format-fix"
+}
