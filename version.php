@@ -25,7 +25,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'mod_practicalassessment';
-$plugin->version   = 2026072300235;   // 2026-07-22, v3.2.19
+$plugin->version   = 2026072300;   // 2026-07-22, v3.2.19
 $plugin->requires = 2022112800;
 $plugin->maturity = MATURITY_STABLE;
 $plugin->release = '3.2.25'; // ADD-BACKUP-RESTORE: Added full Moodle backup/restore support (backup/moodle2/). Fixes stuck progress and missing activity data when a teacher copies or deletes the activity. Backs up instance settings; optionally backs up submissions and supervisor records when "Include user data" is selected. Supervisor verification tokens are reset on restore (students must re-verify). No DB schema changes. Savepoint 2026072200319. no-op savepoint marker for clean upgrade path. No DB schema changes.; // FIX: version number corrected to 13-digit YYYYMMDD00XXX format. No DB schema changes.
